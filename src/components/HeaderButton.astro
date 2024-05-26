@@ -1,0 +1,16 @@
+---
+// HeaderButton.astro
+const { href, class: className, children } = Astro.props;
+---
+
+<a
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="relative min-w-[250px] border-blue-300 hover:border-blue-400
+     flex justify-center items-center overflow-hidden rounded-xl
+     border bg-slate-800/50 w-full py-4 h-24 px-12 transition hover:bg-slate-800/75 hover:shadow-lg group"
+>
+    <slot />
+    {children}
+</a>
