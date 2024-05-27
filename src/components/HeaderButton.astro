@@ -11,6 +11,6 @@ const { href, class: className, children } = Astro.props;
      border bg-slate-800/50 w-full py-4 h-24 px-12 transition hover:bg-slate-800/75 hover:shadow-lg group"
 >
     {children}
-
+    <slot name="after" />
     <slot />
 </a>
