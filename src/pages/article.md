@@ -20,6 +20,6 @@ Lorem ipsum esto es un ejemplo de contenido y colecciones de contenido Astro.
 ```javascript
 
 function () {
-    console.log ('HolaMundo');
+    console.log ('Hola Mundo');
 }
 ```
